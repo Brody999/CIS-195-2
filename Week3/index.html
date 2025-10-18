@@ -11,7 +11,8 @@
     <header>
         <h1>Responsive Demo Site</h1>
         <!--Nav -->
-        <nav>
+        <button class="nav-toggle" aria-label="toggle navigation">=</button>
+        <nav class="nav-links">
             <a href="index.html">Home</a>
             <a href="lessons.html">Lessons</a>
             <a href="resources.html">Resources</a>
@@ -65,5 +66,10 @@
     <footer>
         <p>&copy; 2025 Responsive Demo</p>
     </footer>
+    <script>
+        document.querySelector(".nav-toggle").addEventListener("click", () => {
+            document.querySelector(".nav-links").classList.toggle("active");
+        });
+    </script>
 </body>
 </html>

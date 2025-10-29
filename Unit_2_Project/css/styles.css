@@ -154,7 +154,7 @@ article:nth-of-type(2){
     font-weight: bold;
 }
 
-#weights, #cardio, #training {
+#simulations, #internet-of-things-iot, #quantum-computer {
     margin: 0 2%;
 }
 
@@ -260,20 +260,12 @@ footer p a {
         grid-column: 1 / span 3;
     }
 
-    #exercises {
+    #quantum-computer {
         border-top: 1px solid #000;
         border-bottom: 1px solid #000;
         background: linear-gradient(to right, #ccc, #fff);
         background-color: #f2f2f2;
         padding: 1% 2%;
-    }
-
-    #exercises dt {
-        font-weight: bold;
-    }
-
-    #exercises dd {
-        padding: 0.5% 1% 2% 0;
     }
 
     .tel-num {
@@ -348,13 +340,13 @@ footer p a {
         box-shadow: 8px 8px 10px #808080;
     }
 
-    #weights, #cardio, #training {
+    #simulations, #internet-of-things-iot {
         width: 29%;
         float: left;
         margin: 0 2%;
     }
 
-    #exercises {
+    #quantum-computer {
         clear: left;
     }
 
@@ -379,4 +371,3 @@ footer p a {
     }
 
 }
-

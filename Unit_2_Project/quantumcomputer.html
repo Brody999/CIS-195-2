@@ -5,6 +5,14 @@
         <title>Advanced Technologies</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+        <link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
     </head>
     <body>
 
@@ -12,7 +20,6 @@
 
             <!-- Use the header area for the website name or logo -->
             <header>
-                <h1>Advanced Technologies</h1>
                 <a href="index.html"><img src="images/Logo.webp" alt="Logo"></a>
             </header>
 
@@ -28,17 +35,43 @@
             </nav>
 
             <!-- Use the main area to add the main content of the webpage -->
-            <main>
+            <main class="grid">
 
-                <div>
-                    <img src="images/quantum-computer.jpg" alt="Quantum Computer">
-                    <p>New advancment in computing involves the quantum computer. A new way of computing using qbits that can be in a state of any where from 1 to 0.</p>
-                </div>
+                <article>
+                    <h3>Quantum Computers</h3>
+                    <img src="images/quantum-internals.jpg" alt="quantum internals" class="round">
+                    <p>Quantum computers require superconductivity and to get that they must use multiple layers of cooling in order to get colder and colder.</p>
+                    <p>As you get colder and colder you are able to access effects that wouldn't be possible without the cooling.</p>
+                    <p>The superconductivity allows for zero resistance for electicity to flow.</p>
+                    <p>Without being cooled you will get the quantum effects to decohear meaning you no longer have the desired quantum effects.</p>
+                </article>
 
-                <div>
-                    <img src="images/simulation.png" alt="Computer Simulation">
-                    <p>Quantum computers allow for incredible simulations that wouldn't be possible without the use of qbits.</p>
-                </div>
+                <article>
+                    <h3>Quantum Chips</h3>
+                    <img src="images/quantum-chip.png" alt="quantum chip" class="round">
+                    <p>Quantum Computers include:</p>
+                    <ul>
+                        <li>Quantum Processor</li>
+                        <li>Ultra-high vacuum pumps</li>
+                        <li>Low-temperature thermostat</li>
+                        <li>Electromagnetic shielding</li>
+                        <li>Microwave components</li>
+                        <li>Superconducting circuts</li>
+                        <li>Coherent microwave sources</li>
+                        <li>Quantum ASICs</li>
+                        <li>Networking hardware</li>
+                        <li>Dilution refidgeration systems</li>
+                        <li>Qubits</li>
+                        <li>Quantum Processor</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <h3>Qubits</h3>
+                    <img src="images/qubit.jpg" alt="qubits" class="round">
+                    <h4>Quantum Bits</h4>
+                    <p>Bits are either 0 or 1 and can be represented by those two states. Qubits differ from bits in that they can be in a state of 0 1 or anthing inbetween. That is what makes them special because there is infintly many states between 0 and 1.</p>
+                </article>
 
             </main>
 

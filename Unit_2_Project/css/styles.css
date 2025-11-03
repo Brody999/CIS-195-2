@@ -355,7 +355,7 @@ footer p a {
         transition: transform 0.3s;
     }
 
-    .hover-btn:hover {
+    nav li a:hover {
         transform: scale(1.2);
     }
 

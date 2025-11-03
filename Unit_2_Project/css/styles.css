@@ -388,11 +388,17 @@ footer p a {
 
     .frame {
         opacity: 0.9;
+        transition: transform(0.3s);
     }
 
     .frame:hover {
         opacity: 1;
         box-shadow: 8px 8px 10px #808080;
+        transform: scale(1.2);
+    }
+
+    .frame:active {
+        transform: scale(0.9);
     }
 
     #simulations, #internet-of-things-iot {

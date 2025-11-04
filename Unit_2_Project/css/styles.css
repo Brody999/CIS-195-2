@@ -394,7 +394,7 @@ footer p a {
     .frame:hover {
         opacity: 1;
         box-shadow: 8px 8px 10px #808080;
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
 
     .frame:active {
